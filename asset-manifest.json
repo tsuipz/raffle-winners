@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/raffle-winners/static/css/main.c5863680.css",
-    "main.js": "/raffle-winners/static/js/main.93b61268.js",
+    "main.css": "/raffle-winners/static/css/main.f051beb0.css",
+    "main.js": "/raffle-winners/static/js/main.461ee039.js",
     "index.html": "/raffle-winners/index.html",
-    "main.c5863680.css.map": "/raffle-winners/static/css/main.c5863680.css.map",
-    "main.93b61268.js.map": "/raffle-winners/static/js/main.93b61268.js.map"
+    "main.f051beb0.css.map": "/raffle-winners/static/css/main.f051beb0.css.map",
+    "main.461ee039.js.map": "/raffle-winners/static/js/main.461ee039.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5863680.css",
-    "static/js/main.93b61268.js"
+    "static/css/main.f051beb0.css",
+    "static/js/main.461ee039.js"
   ]
 }

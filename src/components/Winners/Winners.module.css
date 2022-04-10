@@ -8,6 +8,10 @@
 	font-size: 1.4rem;
 }
 
+.winners article div:first-child {
+	justify-self: flex-end;
+}
+
 @media (max-width: 1024px) {
 	.winners article {
 		grid-template-columns: 1.5rem 12rem 20rem 30rem;

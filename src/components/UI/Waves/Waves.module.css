@@ -61,9 +61,19 @@ footer {
 @media (max-width: 768px) {
 	.waves {
 		height: 6rem;
-		min-height: 4rem;
+		min-height: 6rem;
 	}
 	.content {
 		height: 15vh;
+	}
+}
+
+@media (max-width: 425px) {
+	.waves {
+		height: 5rem;
+		min-height: 5rem;
+	}
+	.content {
+		height: 10vh;
 	}
 }

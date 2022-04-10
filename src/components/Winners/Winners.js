@@ -29,7 +29,7 @@ const Winners = () => {
 		<section className={classes.winners}>
 			{pickWinners().map((item, idx) => (
 				<article key={item.id}>
-					<div>{idx + 1}</div>
+					<div>{idx + 1}.</div>
 					<div>{item.name}</div>
 					<div>{item.email}</div>
 					<div>{item.prize}</div>

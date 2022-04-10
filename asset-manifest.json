@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/raffle-winners/static/css/main.69c58e83.css",
+    "main.js": "/raffle-winners/static/js/main.105ada66.js",
+    "index.html": "/raffle-winners/index.html",
+    "main.69c58e83.css.map": "/raffle-winners/static/css/main.69c58e83.css.map",
+    "main.105ada66.js.map": "/raffle-winners/static/js/main.105ada66.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69c58e83.css",
+    "static/js/main.105ada66.js"
+  ]
+}

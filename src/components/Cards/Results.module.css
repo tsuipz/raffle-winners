@@ -1,4 +1,8 @@
 /* About Section */
+.card {
+	padding: 4rem;
+}
+
 .inner {
 	max-width: 76.8rem;
 	text-align: center;

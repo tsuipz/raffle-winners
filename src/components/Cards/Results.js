@@ -5,7 +5,7 @@ import classes from './Results.module.css';
 
 const Results = () => {
 	return (
-		<Card>
+		<Card className={classes.card}>
 			<main className={classes.inner}>
 				<h2 className={classes.title}>Here are the winners</h2>
 				<p className={classes.description}>

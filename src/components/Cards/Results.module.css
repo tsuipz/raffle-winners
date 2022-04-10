@@ -1,0 +1,48 @@
+/* About Section */
+.inner {
+	max-width: 76.8rem;
+	text-align: center;
+}
+
+.title {
+	font-size: 4rem;
+	line-height: 1.4;
+	font-weight: 600;
+	margin-bottom: 2rem;
+}
+
+.description {
+	font-size: 2rem;
+	line-height: 1.5;
+	margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+	.title {
+		font-size: 3rem;
+		margin-bottom: 1.5rem;
+	}
+
+	.description {
+		font-size: 1.2rem;
+		margin-bottom: 1.5rem;
+	}
+}
+
+@media (max-width: 425px) {
+	.title {
+		font-size: 2.4rem;
+	}
+}
+
+@media (max-width: 320px) {
+	.title {
+		font-size: 2rem;
+		margin-bottom: 1rem;
+	}
+
+	.description {
+		font-size: 1rem;
+		margin-bottom: 1rem;
+	}
+}

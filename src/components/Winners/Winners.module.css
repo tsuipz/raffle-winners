@@ -1,0 +1,29 @@
+.winners article {
+	display: grid;
+	grid-template-columns: 1.5rem 15rem 25rem 30rem;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 1rem;
+	margin-bottom: 6px;
+	font-size: 1.4rem;
+}
+
+@media (max-width: 1024px) {
+	.winners article {
+		grid-template-columns: 1.5rem 12rem 20rem 30rem;
+		font-size: 1.2rem;
+	}
+}
+
+@media (max-width: 768px) {
+	.winners article {
+		grid-template-columns: auto 15% 35% auto;
+		font-size: 0.8rem;
+	}
+}
+
+@media (max-width: 425px) {
+	.winners article {
+		font-size: 0.6rem;
+	}
+}

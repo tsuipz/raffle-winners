@@ -1,0 +1,114 @@
+/* About Section */
+.inner {
+	max-width: 76.8rem;
+	text-align: center;
+}
+
+.title {
+	font-size: 4.4rem;
+	line-height: 1.4;
+	font-weight: 700;
+	margin-bottom: 3rem;
+}
+
+.description {
+	font-size: 2rem;
+	line-height: 1.5;
+	margin-bottom: 2rem;
+}
+
+/* Input Section */
+.inputs {
+	display: grid;
+	grid-template-columns: auto auto;
+	justify-content: center;
+	column-gap: 2rem;
+	margin-bottom: 2rem;
+}
+
+.input {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.input label {
+	align-self: flex-start;
+	font-size: 1.6rem;
+}
+
+.input input {
+	align-self: flex-start;
+	font-size: 1.4rem;
+}
+
+.button {
+	width: 20rem;
+	height: 4rem;
+	font-weight: 700;
+}
+
+.error {
+	margin-top: 1rem;
+	color: red;
+	font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+	.title {
+		font-size: 3rem;
+		margin-bottom: 1.5rem;
+	}
+
+	.description {
+		font-size: 1.4rem;
+		margin-bottom: 1.5rem;
+	}
+
+	.inputs {
+		grid-template-columns: auto;
+		gap: 1rem;
+	}
+}
+
+@media (max-width: 425px) {
+	.title {
+		font-size: 2.4rem;
+	}
+
+	.input label,
+	.input input,
+	.description {
+		font-size: 1.2rem;
+	}
+
+	.input input {
+		width: auto;
+	}
+}
+
+@media (max-width: 320px) {
+	.title {
+		font-size: 2rem;
+		margin-bottom: 1rem;
+	}
+
+	.description {
+		font-size: 1rem;
+		margin-bottom: 1rem;
+	}
+
+	.input label,
+	.input input,
+	.error {
+		font-size: 1rem;
+	}
+
+	.button {
+		width: 15rem;
+		height: 3rem;
+		font-size: 1rem;
+	}
+}

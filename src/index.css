@@ -40,6 +40,7 @@ body {
 	color: var(--text-color);
 	font-family: 'Open Sans', sans-serif;
 	background: linear-gradient(to bottom right, #fdc639, #ff7c60);
+	background-attachment: fixed;
 }
 
 h1,

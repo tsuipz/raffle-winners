@@ -4,7 +4,7 @@ import Waves from './components/UI/Waves/Waves';
 
 function App() {
 	return (
-		<main>
+		<main className='app'>
 			<Main />
 			<Waves />
 		</main>

@@ -1,11 +1,10 @@
 .main {
-	height: 85vh;
+	margin: 5rem 0;
 	width: 100%;
 }
 
 @media (max-width: 425px) {
 	.main {
-		height: 100vh;
 		margin: 3rem auto;
 	}
 }

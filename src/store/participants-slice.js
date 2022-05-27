@@ -44,7 +44,6 @@ const participantsSlice = createSlice({
 				})
 				.filter((obj) => obj.Funds === 'AAPIH AFam Raffle Fund');
 
-			console.log(array);
 			// Creates tickets for participants
 			for (let idx = 0; idx < array.length; idx++) {
 				// TODO: Email should be 'Employee email'
@@ -64,8 +63,6 @@ const participantsSlice = createSlice({
 				maxParticipants[i] = maxParticipants[j];
 				maxParticipants[j] = temp;
 			}
-
-			console.log(maxParticipants);
 
 			state.users = maxParticipants;
 		},

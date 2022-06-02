@@ -55,6 +55,8 @@ const participantsSlice = createSlice({
 				}
 			}
 
+			console.log('Total Raffle Tickets:', maxParticipants.length);
+
 			// Shuffles the array to be random
 			for (let i = maxParticipants.length - 1; i > 0; i--) {
 				// Grabs a random index and swaps with the current idx;
